@@ -1,0 +1,101 @@
+body {
+    background: #F2F2F2;
+    margin: 0%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.nav {
+    width: 90%;
+    height: 80px;
+    background: green;
+    margin: 0 auto;
+}
+
+img {
+    width: 80%;
+}
+
+.main {
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    width: 50%;
+    background: white;
+    box-shadow: 0 0 88px 0 gray;
+    padding: 1.5%;
+}
+
+.homes {
+    width: 20%;
+    height: 500px;
+    background: white;
+}
+
+.homes img {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.home-2 {
+    width: 20%;
+    max-height: 900px;
+    background: white;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1260px) {
+    .main {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+    }
+    img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home {
+        width: 97%;
+    }
+    .main {
+        flex-wrap: wrap;
+    }
+    .homes {
+        width: 48%;
+        margin-top: 3%;
+    }
+    .home-2 {
+        width: 48%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home {
+        width: 94%;
+    }
+    .homes {
+        width: 97%;
+    }
+    .homes img {
+        height: 480px;
+    }
+    .home-2 {
+        width: 97%;
+        margin-bottom: 1%;
+    }
+}

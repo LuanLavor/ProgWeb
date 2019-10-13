@@ -1,0 +1,55 @@
+body {
+    background: #F2F2F2;
+    margin: 0%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.nav {
+    width: 1260px;
+    height: 80px;
+    background: green;
+    margin: 0 auto;
+}
+
+img {
+    width: 80%;
+}
+
+.main {
+    width: 1260px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    width: 600px;
+    background: white;
+    box-shadow: 0 0 88px 0 gray;
+    padding: 1.5%;
+}
+
+.homes {
+    width: 300px;
+    height: 500px;
+    background: white;
+}
+
+.homes img {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.home-2 {
+    width: 300px;
+    max-height: 900px;
+    background: white;
+    overflow: scroll;
+}
